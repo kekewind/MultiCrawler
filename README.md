@@ -22,7 +22,8 @@
 
    ```shell
    
-   python3 get_user_video_list.py
+   python get_user_video_list.py
+   python bilibili_video_download.py
    # 浏览器弹出后在40秒内完成登录    
    ```
 
@@ -34,7 +35,7 @@
 
 如果觉得项目不错的话可以打赏哦。您的支持就是我最大的动力！
 
-技术交流添加作者v:MuskG2023
+无法运行可联系作者，帮忙修改:MuskG2023
 
 ## star
 - 如果该项目对你有帮助，star一下 ❤️❤️❤️
