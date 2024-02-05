@@ -116,7 +116,7 @@ def sanitize_filename(filename):
 
 
 if __name__ == '__main__':
-    database = 'video_info_lx.db'
+    database = 'video_info.db'
     print('*' * 30 + 'B站视频下载小助手' + '*' * 30)
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
@@ -125,7 +125,7 @@ if __name__ == '__main__':
         'http': 'socks5://127.0.0.1:10808',
         'https': 'socks5://127.0.0.1:10808',
     }
-    html = requests.get('www.kuaishou.com/new-reco', headers=headers, proxies=proxies)
+
     href_list = process_all_records(database)
 
     for start in href_list:
